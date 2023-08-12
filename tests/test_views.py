@@ -3,7 +3,7 @@ from django.test import RequestFactory
 from django.contrib.auth.models import AnonymousUser, User
 from restaurant.models import Menu
 from restaurant.views import MenuItemsView
-from restaurant.serializers import MenuItemSerializer
+
 
 class MenuViewTest(TestCase):
     def setUp(self):
